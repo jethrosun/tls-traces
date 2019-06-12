@@ -1,0 +1,145 @@
+[14:57] defenstration:~/d/m/t/scripts (master *) | ./badssl-capture.sh
++ wget --no-check-certificate https://expired.badssl.com
+--2019-06-12 14:57:16--  https://expired.badssl.com/
+Resolving expired.badssl.com (expired.badssl.com)... 104.154.89.105
+Connecting to expired.badssl.com (expired.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify expired.badssl.com's certificate, issued by ‘CN=COMODO RSA Domain Validation Secure Server CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB’:
+  Issued certificate has expired.
+HTTP request sent, awaiting response... 200 OK
+Length: 469 [text/html]
+Saving to: ‘index.html’
+
+index.html                                           100%[=====================================================================================================================>]     469  --.-KB/s    in 0s
+
+2019-06-12 14:57:16 (14.4 MB/s) - ‘index.html’ saved [469/469]
+
++ wget --no-check-certificate https://wrong.host.badssl.com
+--2019-06-12 14:57:16--  https://wrong.host.badssl.com/
+Resolving wrong.host.badssl.com (wrong.host.badssl.com)... 104.154.89.105
+Connecting to wrong.host.badssl.com (wrong.host.badssl.com)|104.154.89.105|:443... connected.
+WARNING: no certificate subject alternative name matches
+        requested host name ‘wrong.host.badssl.com’.
+HTTP request sent, awaiting response... 200 OK
+Length: 475 [text/html]
+Saving to: ‘index.html.1’
+
+index.html.1                                         100%[=====================================================================================================================>]     475  --.-KB/s    in 0s
+
+2019-06-12 14:57:16 (16.8 MB/s) - ‘index.html.1’ saved [475/475]
+
++ wget --no-check-certificate https://self-signed.badssl.com
+--2019-06-12 14:57:16--  https://self-signed.badssl.com/
+Resolving self-signed.badssl.com (self-signed.badssl.com)... 104.154.89.105
+Connecting to self-signed.badssl.com (self-signed.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify self-signed.badssl.com's certificate, issued by ‘CN=*.badssl.com,O=BadSSL,L=San Francisco,ST=California,C=US’:
+  Self-signed certificate encountered.
+HTTP request sent, awaiting response... 200 OK
+Length: 477 [text/html]
+Saving to: ‘index.html.2’
+
+index.html.2                                         100%[=====================================================================================================================>]     477  --.-KB/s    in 0s
+
+2019-06-12 14:57:16 (19.0 MB/s) - ‘index.html.2’ saved [477/477]
+
++ wget --no-check-certificate https://untrusted-root.badssl.com
+--2019-06-12 14:57:16--  https://untrusted-root.badssl.com/
+Resolving untrusted-root.badssl.com (untrusted-root.badssl.com)... 104.154.89.105
+Connecting to untrusted-root.badssl.com (untrusted-root.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify untrusted-root.badssl.com's certificate, issued by ‘CN=BadSSL Untrusted Root Certificate Authority,O=BadSSL,L=San Francisco,ST=California,C=US’:
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 575 [text/html]
+Saving to: ‘index.html.3’
+
+index.html.3                                         100%[=====================================================================================================================>]     575  --.-KB/s    in 0s
+
+2019-06-12 14:57:17 (16.6 MB/s) - ‘index.html.3’ saved [575/575]
+
++ wget --no-check-certificate https://superfish.badssl.com
+--2019-06-12 14:57:17--  https://superfish.badssl.com/
+Resolving superfish.badssl.com (superfish.badssl.com)... 104.154.89.105
+Connecting to superfish.badssl.com (superfish.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify superfish.badssl.com's certificate, issued by ‘CN=Superfish\\, Inc.,C=US,ST=CA,L=SF,O=Superfish\\, Inc.’:
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 473 [text/html]
+Saving to: ‘index.html.4’
+
+index.html.4                                         100%[=====================================================================================================================>]     473  --.-KB/s    in 0s
+
+2019-06-12 14:57:17 (32.2 MB/s) - ‘index.html.4’ saved [473/473]
+
++ wget --no-check-certificate https://edellroot.badssl.com
+--2019-06-12 14:57:17--  https://edellroot.badssl.com/
+Resolving edellroot.badssl.com (edellroot.badssl.com)... 104.154.89.105
+Connecting to edellroot.badssl.com (edellroot.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify edellroot.badssl.com's certificate, issued by ‘CN=eDellRoot’:
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 473 [text/html]
+Saving to: ‘index.html.5’
+
+index.html.5                                         100%[=====================================================================================================================>]     473  --.-KB/s    in 0s
+
+2019-06-12 14:57:17 (22.6 MB/s) - ‘index.html.5’ saved [473/473]
+
++ wget --no-check-certificate https://dsdtestprovider.badssl.com
+--2019-06-12 14:57:17--  https://dsdtestprovider.badssl.com/
+Resolving dsdtestprovider.badssl.com (dsdtestprovider.badssl.com)... 104.154.89.105
+Connecting to dsdtestprovider.badssl.com (dsdtestprovider.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify dsdtestprovider.badssl.com's certificate, issued by ‘CN=DSDTestProvider,O=DSDTestProvider,OU=DSDTestProvider’:
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 485 [text/html]
+Saving to: ‘index.html.6’
+
+index.html.6                                         100%[=====================================================================================================================>]     485  --.-KB/s    in 0s
+
+2019-06-12 14:57:17 (21.0 MB/s) - ‘index.html.6’ saved [485/485]
+
++ wget --no-check-certificate https://preact-cli.badssl.com
+--2019-06-12 14:57:17--  https://preact-cli.badssl.com/
+Resolving preact-cli.badssl.com (preact-cli.badssl.com)... 104.154.89.105
+Connecting to preact-cli.badssl.com (preact-cli.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify preact-cli.badssl.com's certificate, issued by ‘O=Acme Co’:
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 475 [text/html]
+Saving to: ‘index.html.7’
+
+index.html.7                                         100%[=====================================================================================================================>]     475  --.-KB/s    in 0s
+
+2019-06-12 14:57:17 (30.2 MB/s) - ‘index.html.7’ saved [475/475]
+
++ wget --no-check-certificate https://webpack-dev-server.badssl.com
+--2019-06-12 14:57:17--  https://webpack-dev-server.badssl.com/
+Resolving webpack-dev-server.badssl.com (webpack-dev-server.badssl.com)... 104.154.89.105
+Connecting to webpack-dev-server.badssl.com (webpack-dev-server.badssl.com)|104.154.89.105|:443... connected.
+WARNING: cannot verify webpack-dev-server.badssl.com's certificate, issued by ‘CN=localhost’:
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 490 [text/html]
+Saving to: ‘index.html.8’
+
+index.html.8                                         100%[=====================================================================================================================>]     490  --.-KB/s    in 0s
+
+2019-06-12 14:57:17 (23.4 MB/s) - ‘index.html.8’ saved [490/490]
+
++ wget --no-check-certificate https://sha1-intermediate.badssl.com
+--2019-06-12 14:57:17--  https://sha1-intermediate.badssl.com/
+Resolving sha1-intermediate.badssl.com (sha1-intermediate.badssl.com)... 104.154.89.105
+Connecting to sha1-intermediate.badssl.com (sha1-intermediate.badssl.com)|104.154.89.105|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 589 [text/html]
+Saving to: ‘index.html.9’
+
+index.html.9                                         100%[=====================================================================================================================>]     589  --.-KB/s    in 0s
+
+2019-06-12 14:57:18 (37.4 MB/s) - ‘index.html.9’ saved [589/589]
+
++ wget --no-check-certificate https://rc4.badssl.com
+--2019-06-12 14:57:18--  https://rc4.badssl.com/
+Resolving rc4.badssl.com (rc4.badssl.com)... 104.154.89.105
+Connecting to rc4.badssl.com (rc4.badssl.com)|104.154.89.105|:443... connected.
+OpenSSL: error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure
+Unable to establish SSL connection.
