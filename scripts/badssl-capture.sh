@@ -1,10 +1,12 @@
 #!/bin/bash
 
-set -ex
+set -x
 
+rm index.*
 #sudo tshark -i en7 -a duration:60 -w ../data/cap01.pcap &
 #sudo tshark -i en7 -a duration:60 -w cap01.pcap
 
+# bad ssl
 wget --no-check-certificate https://expired.badssl.com
 wget --no-check-certificate https://wrong.host.badssl.com
 wget --no-check-certificate https://self-signed.badssl.com
@@ -43,3 +45,6 @@ wget --no-check-certificate https://ecc256.badssl.com
 wget --no-check-certificate https://ecc384.badssl.com
 wget --no-check-certificate https://extended-validation.badssl.com
 wget --no-check-certificate https://mozilla-modern.badssl.com
+
+
+rm index.*
