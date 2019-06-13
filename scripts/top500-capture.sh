@@ -481,7 +481,7 @@ wget --no-check-certificate https://pcmag.com
 wget --no-check-certificate https://discovery.com
 wget --no-check-certificate https://slate.com
 wget --no-check-certificate https://e-monsite.com
-wget --no-check-certificate https://nova.cz
+#wget --no-check-certificate https://nova.cz
 wget --no-check-certificate https://variety.com
 wget --no-check-certificate https://thoughtco.com
 wget --no-check-certificate https://bp1.blogger.com
@@ -489,7 +489,7 @@ wget --no-check-certificate https://feedproxy.google.com
 wget --no-check-certificate https://usa.gov
 wget --no-check-certificate https://theatlantic.com
 wget --no-check-certificate https://pixnet.net
-wget --no-check-certificate https://dreniq.com
+#wget --no-check-certificate https://dreniq.com
 wget --no-check-certificate https://siemens.com
 wget --no-check-certificate https://sports.yahoo.com
 wget --no-check-certificate https://dropboxusercontent.com
@@ -515,7 +515,7 @@ wget --no-check-certificate https://gen.xyz
 wget --no-check-certificate https://ap.org
 wget --no-check-certificate https://t-online.de
 wget --no-check-certificate https://www.canalblog.com
-wget --no-check-certificate https://mlb.com
+#wget --no-check-certificate https://mlb.com
 wget --no-check-certificate https://newscientist.com
 wget --no-check-certificate https://biblegateway.com
 wget --no-check-certificate https://ftc.gov
