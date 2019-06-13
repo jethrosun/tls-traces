@@ -178,8 +178,8 @@ wget --no-check-certificate https://booking.com
 wget --no-check-certificate https://samsung.com
 wget --no-check-certificate https://code.google.com
 wget --no-check-certificate https://elmundo.es
-wget --no-check-certificate https://cdc.gov
-wget --no-check-certificate https://un.org
+wget --no-check-certificate https://www.cdc.gov
+#wget --no-check-certificate https://un.org
 wget --no-check-certificate https://playstation.com
 wget --no-check-certificate https://goodreads.com
 wget --no-check-certificate https://wsj.com
@@ -210,9 +210,9 @@ wget --no-check-certificate https://dailymail.co.uk
 wget --no-check-certificate https://hp.com
 wget --no-check-certificate https://secureserver.net
 wget --no-check-certificate https://sendspace.com
-wget --no-check-certificate https://photos1.blogger.com
-wget --no-check-certificate https://asus.com
-wget --no-check-certificate https://ietf.org
+#wget --no-check-certificate https://photos1.blogger.com
+#wget --no-check-certificate https://asus.com
+#wget --no-check-certificate https://ietf.org
 wget --no-check-certificate https://amazon.es
 wget --no-check-certificate https://www.livejournal.com
 wget --no-check-certificate https://so-net.ne.jp
@@ -247,9 +247,9 @@ wget --no-check-certificate https://espn.com
 wget --no-check-certificate https://www.over-blog.com
 wget --no-check-certificate https://allaboutcookies.org
 wget --no-check-certificate https://bandcamp.com
-wget --no-check-certificate https://cambridge.org
+#wget --no-check-certificate https://cambridge.org
 wget --no-check-certificate https://doubleclick.net
-wget --no-check-certificate https://rtve.es
+#wget --no-check-certificate https://rtve.es
 wget --no-check-certificate https://gravatar.com
 wget --no-check-certificate https://walmart.com
 wget --no-check-certificate https://ign.com
@@ -258,9 +258,9 @@ wget --no-check-certificate https://marketingplatform.google.com
 wget --no-check-certificate https://mirror.co.uk
 wget --no-check-certificate https://ea.com
 wget --no-check-certificate https://lemonde.fr
-wget --no-check-certificate https://clickbank.net
+#wget --no-check-certificate https://clickbank.net
 #wget --no-check-certificate https://ikea.com
-wget --no-check-certificate https://qq.com
+#wget --no-check-certificate https://qq.com
 wget --no-check-certificate https://nhk.or.jp
 wget --no-check-certificate https://lycos.com
 wget --no-check-certificate https://nypost.com
@@ -277,7 +277,7 @@ wget --no-check-certificate https://express.co.uk
 wget --no-check-certificate https://ja.wikipedia.org
 wget --no-check-certificate https://mysql.com
 wget --no-check-certificate https://weibo.com
-wget --no-check-certificate https://repubblica.it
+#wget --no-check-certificate https://repubblica.it
 wget --no-check-certificate https://list-manage.com
 wget --no-check-certificate https://gmail.com
 wget --no-check-certificate https://gizmodo.com
@@ -301,12 +301,12 @@ wget --no-check-certificate https://picasa.google.com
 wget --no-check-certificate https://naver.jp
 wget --no-check-certificate https://channel4.com
 wget --no-check-certificate https://npr.org
-wget --no-check-certificate https://xinhuanet.com
+#wget --no-check-certificate https://xinhuanet.com
 wget --no-check-certificate https://search.yahoo.com
 wget --no-check-certificate https://kickstarter.com
 wget --no-check-certificate https://ask.fm
 wget --no-check-certificate https://mashable.com
-wget --no-check-certificate https://worldbank.org
+#wget --no-check-certificate https://worldbank.org
 wget --no-check-certificate https://windowsphone.com
 wget --no-check-certificate https://finance.yahoo.com
 wget --no-check-certificate https://search.google.com
@@ -324,12 +324,12 @@ wget --no-check-certificate https://ucoz.ru
 wget --no-check-certificate https://independent.co.uk
 wget --no-check-certificate https://sciencedaily.com
 wget --no-check-certificate https://ria.ru
-wget --no-check-certificate https://unesco.org
+#wget --no-check-certificate https://unesco.org
 wget --no-check-certificate https://guardian.co.uk
 wget --no-check-certificate https://www.wikipedia.org
 wget --no-check-certificate https://columbia.edu
 wget --no-check-certificate https://dw.com
-wget --no-check-certificate https://ig.com.br
+#wget --no-check-certificate https://ig.com.br
 wget --no-check-certificate https://ovh.co.uk
 wget --no-check-certificate https://ovh.com
 wget --no-check-certificate https://parallels.com
@@ -547,3 +547,6 @@ wget --no-check-certificate https://fifa.com
 wget --no-check-certificate https://stuff.co.nz
 wget --no-check-certificate https://netsons.com
 wget --no-check-certificate https://metro.co.uk
+
+
+rm index.*
