@@ -1,0 +1,68 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=San Francisco/O=BadSSL/CN=*.badssl.com
+   i:/C=US/ST=California/L=San Francisco/O=BadSSL/CN=*.badssl.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDeTCCAmGgAwIBAgIJAK32hhGBHramMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNV
+BAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNp
+c2NvMQ8wDQYDVQQKDAZCYWRTU0wxFTATBgNVBAMMDCouYmFkc3NsLmNvbTAeFw0x
+OTA2MTIxNTMxNTlaFw0yMTA2MTExNTMxNTlaMGIxCzAJBgNVBAYTAlVTMRMwEQYD
+VQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ8wDQYDVQQK
+DAZCYWRTU0wxFTATBgNVBAMMDCouYmFkc3NsLmNvbTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAMIE7PiM7gTCs9hQ1XBYzJMY61yoaEmwIrX5lZ6xKyx2
+PmzAS2BMTOqytMAPgLaw+XLJhgL5XEFdEyt/ccRLvOmULlA3pmccYYz2QULFRtMW
+hyefdOsKnRFSJiFzbIRMeVXk0WvoBj1IFVKtsyjbqv9u/2CVSndrOfEk0TG23U3A
+xPxTuW1CrbV8/q71FdIzSOciccfCFHpsKOo3St/qbLVytH5aohbcabFXRNsKEqve
+ww9HdFxBIuGa+RuT5q0iBikusbpJHAwnnqP7i/dAcgCskgjZjFeEU4EFy+b+a1SY
+QCeFxxC7c3DvaRhBB0VVfPlkPz0sw6l865MaTIbRyoUCAwEAAaMyMDAwCQYDVR0T
+BAIwADAjBgNVHREEHDAaggwqLmJhZHNzbC5jb22CCmJhZHNzbC5jb20wDQYJKoZI
+hvcNAQELBQADggEBAIi5u9w8mgT6ppCc7xsG+A9fI3W4z+qSKaphr5ls70GBKbiY
+YLJUYZhPfWph1qtkkU0LHFPm83Va52eIHrjXT0Ve4KtO1n0IAfItFaW62CJghGYn
+jzw0ryzgC4PyFpNMnNtBroPu/bPgWiMgLONpEZhigx4Q8wf1Y/U9s+zCCxoJlaKR
+MXbuQ87X7m/9VRnxxo6Nz5Zf7OTHTpNOI6Vja0BxbmIAU6yriw9UrgibXfOj3j6n
+MTLBugUVIB0bBaasJsAMK+w4LANvapeZ0DOSnOR4KK24J0OyoF5fHmp59eM17IoF
+QqBhzpmQUgunecEW8BTqrNpG79R1u+V+4wwckPc=
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=San Francisco/O=BadSSL/CN=*.badssl.com
+issuer=/C=US/ST=California/L=San Francisco/O=BadSSL/CN=*.badssl.com
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 1599 bytes and written 357 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: DF1D66E880E139ACF0E3310FD2A41B9A7C24C81BF61318C45BB415D4F35A4F83
+    Session-ID-ctx: 
+    Master-Key: 6AEE0489374B30BF86D6649907CDF657037C06EB478D7157983FDFFD058B23D8F782979ED5A3B365FDA5130625D72952
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - 0b 07 d0 5e 95 9e 41 6f-aa 65 e1 41 a2 a7 de 17   ...^..Ao.e.A....
+    0020 - bb 40 23 67 2b 38 bc 2b-b2 30 68 bf dc 8e b0 d7   .@#g+8.+.0h.....
+    0030 - 53 b5 75 e6 17 e5 e7 8f-b3 aa 03 05 e0 ef c5 7d   S.u............}
+    0040 - aa d9 d9 0b 14 dd a1 d8-2a 92 43 fa c2 6c 9a 13   ........*.C..l..
+    0050 - d7 f1 63 c2 f9 e3 55 6f-33 5a d5 00 ef 41 29 da   ..c...Uo3Z...A).
+    0060 - e9 62 3a 4d be d4 1a f0-06 ed 71 1f 0d 82 04 c7   .b:M......q.....
+    0070 - 7a 45 8b af 74 73 4b 87-d1 2f 2c 8f b7 15 d6 96   zE..tsK../,.....
+    0080 - a8 65 69 c8 66 5b 13 91-5e 5e 8f 34 b6 41 18 79   .ei.f[..^^.4.A.y
+    0090 - 69 2e b2 1b 2e a3 85 75-81 67 47 a2 57 dc 0e fb   i......u.gG.W...
+    00a0 - 3c c8 cc 7d da 1e 58 bf-3b ea 8c 33 82 c6 eb 95   <..}..X.;..3....
+    00b0 - 81 3e 94 d1 e0 82 4a 76-30 e2 b1 37 b6 a0 f9 8a   .>....Jv0..7....
+    00c0 - 7c b4 d6 6c 56 f4 b4 f9-f8 ee b0 4f 2d f1 22 f9   |..lV......O-.".
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 18 (self signed certificate)
+---

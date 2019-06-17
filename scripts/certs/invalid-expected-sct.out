@@ -1,0 +1,79 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/CN=invalid-expected-sct.badssl.com
+   i:/C=US/O=GeoTrust Inc./CN=RapidSSL SHA256 CA
+ 1 s:/C=US/O=GeoTrust Inc./CN=RapidSSL SHA256 CA
+   i:/C=US/O=GeoTrust Inc./CN=GeoTrust Global CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGDCCBACgAwIBAgIQGkTSlT8/2bAURo/J1C2/STANBgkqhkiG9w0BAQsFADBC
+MQswCQYDVQQGEwJVUzEWMBQGA1UEChMNR2VvVHJ1c3QgSW5jLjEbMBkGA1UEAxMS
+UmFwaWRTU0wgU0hBMjU2IENBMB4XDTE2MTExNzAwMDAwMFoXDTE4MTExNzIzNTk1
+OVowKjEoMCYGA1UEAwwfaW52YWxpZC1leHBlY3RlZC1zY3QuYmFkc3NsLmNvbTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMIE7PiM7gTCs9hQ1XBYzJMY
+61yoaEmwIrX5lZ6xKyx2PmzAS2BMTOqytMAPgLaw+XLJhgL5XEFdEyt/ccRLvOmU
+LlA3pmccYYz2QULFRtMWhyefdOsKnRFSJiFzbIRMeVXk0WvoBj1IFVKtsyjbqv9u
+/2CVSndrOfEk0TG23U3AxPxTuW1CrbV8/q71FdIzSOciccfCFHpsKOo3St/qbLVy
+tH5aohbcabFXRNsKEqveww9HdFxBIuGa+RuT5q0iBikusbpJHAwnnqP7i/dAcgCs
+kgjZjFeEU4EFy+b+a1SYQCeFxxC7c3DvaRhBB0VVfPlkPz0sw6l865MaTIbRyoUC
+AwEAAaOCAiAwggIcMCoGA1UdEQQjMCGCH2ludmFsaWQtZXhwZWN0ZWQtc2N0LmJh
+ZHNzbC5jb20wCQYDVR0TBAIwADArBgNVHR8EJDAiMCCgHqAchhpodHRwOi8vZ3Au
+c3ltY2IuY29tL2dwLmNybDBvBgNVHSAEaDBmMGQGBmeBDAECATBaMCoGCCsGAQUF
+BwIBFh5odHRwczovL3d3dy5yYXBpZHNzbC5jb20vbGVnYWwwLAYIKwYBBQUHAgIw
+IAweaHR0cHM6Ly93d3cucmFwaWRzc2wuY29tL2xlZ2FsMB8GA1UdIwQYMBaAFJfC
+J1CewsnsDIgyyHyt4qYBT9pvMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggr
+BgEFBQcDAQYIKwYBBQUHAwIwVwYIKwYBBQUHAQEESzBJMB8GCCsGAQUFBzABhhNo
+dHRwOi8vZ3Auc3ltY2QuY29tMCYGCCsGAQUFBzAChhpodHRwOi8vZ3Auc3ltY2Iu
+Y29tL2dwLmNydDAPBgMrZU0ECDAGAgEBAgEBMIGKBgorBgEEAdZ5AgQCBHwEegB4
+AHYAp85KTmIH4K3e5f2qSx+GdodntdACpV1HMQ5+ZwqV6rIAAAFYb//OtAAABAMA
+RzBFAiEAuAOtNPb8Dyz/hKCG5dfPWvAKB2Jqf7OmRGTxlaRIRRECIC9hjVMbb0q4
+CmeyB+GPba3RBEpes4nvfGDCaFP5PR9tMA0GCSqGSIb3DQEBCwUAA4IBAQBIMHww
+vuW8XOBdxw0Mq0z3NFsAW2XvkcXtTGmB5savCpRJ6LN0ub6NJX+KiFmDo9voMDro
+YL7o9i+BrSAFo3hr8QNxLLJaXD54h8lJ0oCkzyZtzezM8p2PWsEjouePtdE0AIHn
+RK0SnKBk9w0b3CMSbzObc1Cu8ATqZnE51d7xurim7qTZMhJM2hi9HeLPLVdEBiuC
+zmYtNpRMMQqbQvvrXftAohq/W90rK42Ss8kYIf8FsVTa5VaqXW7lIh/3JmBNLZ1D
+Aw5rmaztWlYO64YS7z4am5d9h2rrF1rfgv9Mc3caxAUO3sJZDRyhYaj+7BUgv8HR
+otJHkjr2ASPp31Yf
+-----END CERTIFICATE-----
+subject=/CN=invalid-expected-sct.badssl.com
+issuer=/C=US/O=GeoTrust Inc./CN=RapidSSL SHA256 CA
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 3122 bytes and written 366 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: E45230AD519FF9AF876BB365D807B8F282C7CDCBEE3B5CD111F37689402D4788
+    Session-ID-ctx: 
+    Master-Key: 9542E768D5D9FC3E4717C9FCF56BA81553B706E18B5EB056FC50FC101F5BBCDC98DD8FB80B8BE2742B4DDC59CD4F28C7
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - 5c 2d 78 e6 f7 85 bf 05-a0 d4 aa 00 ff 7e c2 92   \-x..........~..
+    0020 - 84 9e 1b 0e 8f c0 ec 5f-99 04 a3 88 e9 d8 fb 35   ......._.......5
+    0030 - 5e c4 91 54 d4 46 f9 c6-a6 8f 46 90 80 fd f0 dc   ^..T.F....F.....
+    0040 - 06 9b 05 24 5e 49 a8 a6-5c f5 af 9f f8 55 4b ca   ...$^I..\....UK.
+    0050 - 6c 79 ca 83 21 5c d6 a5-ed 30 e6 44 e4 09 67 d3   ly..!\...0.D..g.
+    0060 - a4 44 4b 63 cd 6e e6 dc-4f 5a 71 d3 11 40 62 6a   .DKc.n..OZq..@bj
+    0070 - 9b fa 85 76 8c 63 c3 2f-75 c7 55 a7 45 3b c6 43   ...v.c./u.U.E;.C
+    0080 - 28 b8 77 5e 57 82 e1 48-c3 d7 3a 6c fc 9b f6 4d   (.w^W..H..:l...M
+    0090 - 82 d1 ab 8b 83 82 d2 67-8e 76 84 33 e8 f1 c8 e5   .......g.v.3....
+    00a0 - 31 99 be 0f 06 e5 aa 52-ec 3d 97 db 1f 7c 99 82   1......R.=...|..
+    00b0 - d5 2e 2d 0b 2e 4d 5b c2-2a e3 35 89 74 1d ea 65   ..-..M[.*.5.t..e
+    00c0 - 4b d0 16 a3 bb 19 fb 23-7a 63 21 fb 09 22 c1 5f   K......#zc!.."._
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 10 (certificate has expired)
+---

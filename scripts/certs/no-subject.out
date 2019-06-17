@@ -1,0 +1,88 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:
+   i:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=UbiquiTLS\xE2\x84\xA2 DV RSA Server CA
+ 1 s:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=UbiquiTLS\xE2\x84\xA2 DV RSA Server CA
+   i:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Certification Authority
+ 2 s:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Certification Authority
+   i:/C=SE/O=AddTrust AB/OU=AddTrust External TTP Network/CN=AddTrust External CA Root
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGdTCCBV2gAwIBAgIQI+ZPIMN8DYcQH3GS78XTcjANBgkqhkiG9w0BAQsFADCB
+gDELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
+A1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09NT0RPIENBIExpbWl0ZWQxJjAkBgNV
+BAMMHVViaXF1aVRMU+KEoiBEViBSU0EgU2VydmVyIENBMB4XDTE3MDMxNzAwMDAw
+MFoXDTIwMDYxNjIzNTk1OVowADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAMIE7PiM7gTCs9hQ1XBYzJMY61yoaEmwIrX5lZ6xKyx2PmzAS2BMTOqytMAP
+gLaw+XLJhgL5XEFdEyt/ccRLvOmULlA3pmccYYz2QULFRtMWhyefdOsKnRFSJiFz
+bIRMeVXk0WvoBj1IFVKtsyjbqv9u/2CVSndrOfEk0TG23U3AxPxTuW1CrbV8/q71
+FdIzSOciccfCFHpsKOo3St/qbLVytH5aohbcabFXRNsKEqveww9HdFxBIuGa+RuT
+5q0iBikusbpJHAwnnqP7i/dAcgCskgjZjFeEU4EFy+b+a1SYQCeFxxC7c3DvaRhB
+B0VVfPlkPz0sw6l865MaTIbRyoUCAwEAAaOCA2gwggNkMB8GA1UdIwQYMBaAFDgS
+xnkCZjgC4zck5YsP/0WVaeYxMB0GA1UdDgQWBBSd7sF7gQs6R2lxGH0RN5O8pRs/
++zAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEF
+BQcDAQYIKwYBBQUHAwIwUAYDVR0gBEkwRzA7BgwrBgEEAbIxAQIBAwQwKzApBggr
+BgEFBQcCARYdaHR0cHM6Ly9zZWN1cmUuY29tb2RvLm5ldC9DUFMwCAYGZ4EMAQIB
+MHQGCCsGAQUFBwEBBGgwZjA+BggrBgEFBQcwAoYyaHR0cDovL2NydC5jb21vZG9j
+YS5jb20vVWJpcXVpVExTRFZSU0FTZXJ2ZXJDQS5jcnQwJAYIKwYBBQUHMAGGGGh0
+dHA6Ly9vY3NwLmNvbW9kb2NhLmNvbTAjBgNVHREBAf8EGTAXghVuby1zdWJqZWN0
+LmJhZHNzbC5jb20wggH2BgorBgEEAdZ5AgQCBIIB5gSCAeIB4AB2AKS5CZC0GFgU
+h7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABWt5t4gUAAAQDAEcwRQIhAIQE7oHj
+PQvtURUCoh6+dM8GdC6OEfAANupRYHYMo6a8AiBgL5fwtsOp+XR8vQ8XkMKMXYRs
+0awe+B3ZNuIaXGmEWQB3AFYUBpov18Ls0/XhvUSyPsdGdrm8mRFcwO+UmFXWidDd
+AAABWt5t4CwAAAQDAEgwRgIhAIlY3Jz655VWCZm6WMoEcU2nExX1pyK8SL7oj+fp
+3HmPAiEAmHu87c0EInS/wDJrnbiSWzyc47UM2xr3kYhY/lP8OVwAdQDuS723dc5g
+uuFCaR+r4Z5mow9+X7By2IMAxHuJeqj9ywAAAVrebeHfAAAEAwBGMEQCIFMOvF7H
+hM3jdnhdM2BwMohT35uuzrGL3DNJhmKtqTg8AiBL8Mjn00eDbR4a1HKipKgmvt87
+MfXLexBSoRb/lgXT5QB2ALvZ37wfinG1k5Qjl6qSe0c4V5UKq1LoGpCWZDaOHtGF
+AAABWt56EsgAAAQDAEcwRQIhAN7MnjhZoLr3ci0nNfSZ9Ftu/+FT+N3gIfC75fyw
+XQR+AiAiExEXXf+G09W8F93gJDPZwC7bM2VoWb1bZlkVcvtRdTANBgkqhkiG9w0B
+AQsFAAOCAQEAHv5koaT/MZ+zhKQs+6fHJDgTQ2+66u8k6PKQLV3OcfFusJBt/TrD
+P/nNgidru2vObn5NUu2MydVrCfoKwK8hf+7j+fjyLSKZYOvrqhRnN0svqlrX4wWC
+01rrEttc5H8UNf/oaylbOG4vePw8bF5n2aiU4vmGkuTPIkvqxtZ6IJjxqSQqaRhA
+ZRc7d/YAS+MyFF5JXAo9aSyi+AIvhFeTFi+0nmzPwp6wpxz97ylm6DymFMY3IqmP
+RYq4/yqbWE2yz4tRfnedeWBzGSAO4kWDQIN6NDjYwVjGsTk9rSpq/sEtPhUrXWB0
+yd8BGrY2DQplAarq7e1IBIK+tBSRIYF3Ag==
+-----END CERTIFICATE-----
+subject=
+issuer=/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=UbiquiTLS\xE2\x84\xA2 DV RSA Server CA
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 5302 bytes and written 356 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: 83346209785928F773D16753401F9689A6145D89AEC64DEB2FA875B9F543FF37
+    Session-ID-ctx: 
+    Master-Key: 1283ADF9CD2DBC6EF8EA5D67B6CC297DA1B915D1F6FB38EFA16C98F32F7F5D23E9C2C9BA9F06A8223D7200079C2A61CB
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - be 0e d7 76 e1 73 b4 8d-92 a7 a9 03 bf bc 18 ba   ...v.s..........
+    0020 - d6 f7 1a f0 dc 7e e6 da-ba bb 5a e5 9d 1a 29 68   .....~....Z...)h
+    0030 - f2 93 59 87 f3 b8 8b 92-51 bd 96 b3 e8 05 42 51   ..Y.....Q.....BQ
+    0040 - 6e 81 8c b4 be 01 6e 37-98 14 04 06 24 57 ab 06   n.....n7....$W..
+    0050 - 51 57 5c 5c 76 1d 75 44-9f a3 35 c8 fd 70 eb 45   QW\\v.uD..5..p.E
+    0060 - 5d 60 95 81 e2 ca dc 03-a3 6c ae 32 bc b0 80 78   ]`.......l.2...x
+    0070 - f4 73 03 37 de c5 14 23-07 6c 6b b9 a5 03 c1 8f   .s.7...#.lk.....
+    0080 - 42 37 5d cb 97 b4 90 be-4f 94 11 91 26 02 0e 5b   B7].....O...&..[
+    0090 - cc 16 7b 47 23 ec 78 cd-39 17 01 a9 8d 27 10 d3   ..{G#.x.9....'..
+    00a0 - 07 93 dc cd 16 cb e7 09-ac 9e 59 94 86 81 64 d2   ..........Y...d.
+    00b0 - 01 43 ec 01 e6 08 6f 3c-fe 56 89 b3 0f a7 e5 1d   .C....o<.V......
+    00c0 - 1f 8b 31 45 9f 39 1f ec-03 98 09 be 4b 62 e6 c4   ..1E.9......Kb..
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+---

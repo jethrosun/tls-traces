@@ -1,0 +1,74 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=San Francisco/O=BadSSL/CN=*.badssl.com
+   i:/C=US/ST=California/L=San Francisco/O=BadSSL/CN=BadSSL Untrusted Root Certificate Authority
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEmTCCAoGgAwIBAgIJAIUyXXK7EzQEMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYD
+VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5j
+aXNjbzEPMA0GA1UECgwGQmFkU1NMMTQwMgYDVQQDDCtCYWRTU0wgVW50cnVzdGVk
+IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MB4XDTE3MDkwNjAwNDYxOFoXDTE5
+MDkwNjAwNDYxOFowYjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWEx
+FjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDzANBgNVBAoMBkJhZFNTTDEVMBMGA1UE
+AwwMKi5iYWRzc2wuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+wgTs+IzuBMKz2FDVcFjMkxjrXKhoSbAitfmVnrErLHY+bMBLYExM6rK0wA+AtrD5
+csmGAvlcQV0TK39xxEu86ZQuUDemZxxhjPZBQsVG0xaHJ5906wqdEVImIXNshEx5
+VeTRa+gGPUgVUq2zKNuq/27/YJVKd2s58STRMbbdTcDE/FO5bUKttXz+rvUV0jNI
+5yJxx8IUemwo6jdK3+pstXK0flqiFtxpsVdE2woSq97DD0d0XEEi4Zr5G5PmrSIG
+KS6xukkcDCeeo/uL90ByAKySCNmMV4RTgQXL5v5rVJhAJ4XHELtzcO9pGEEHRVV8
++WQ/PSzDqXzrkxpMhtHKhQIDAQABozIwMDAJBgNVHRMEAjAAMCMGA1UdEQQcMBqC
+DCouYmFkc3NsLmNvbYIKYmFkc3NsLmNvbTANBgkqhkiG9w0BAQsFAAOCAgEAT0Hi
+lndSWdBiiyDcKtZI1tsK3wob0Nfms9hh2gEg+2FWyZmgEkKNAP4V4PyHLG7u9tnP
+YSO/QblqYfDWWl9d060lsk0b+LbQN2igBwxqpjbUE+BezAhMTHVkm12RbXZIVW4p
+FKUyh1mBloLY69anpsVIl5fC9UXcyFtpsqe/urzYCXnenp4Gmzy2Dp2fClJnHlfm
+KX24D4Mi7fzLs+aXlUjcncfX/O0Qd2XTvd37Qym6Tkfjd6vYadYYPZaE6MKr/JDI
+KPiCA4znteLG7rauRbrMjBIwOPuuKV9QAzJsk5C1wSAWKmtLfNb4ihjg5Z+x17nr
+vcUxV1fAHfPatn77dOHuhsJUhXTwkJP/JezlglU/EvbmLsILE6mu4SKIzJFLsRdt
+yrryo1pv/KkLWgna0tfq8ZPUvXwOXwKJsJTjbaHOvNrF0bGYoAS4B79mmJ9aa5OA
+XNYgeuDeuZs9PdB0+kjwO8UM19l7V2ID8zWQk0LRFm8oQoSNj8yb+ueqM49828/S
+fox/lvesMMfzJ6GoZ+RreLD/yuAlyTlgn3vsI+usrmD7/7wsEx++94hKwOuvFZSe
+ZAdFfvyQE67f6E3frXtoNsHFXy3rcFbSAYeco5gnRyVXNc0DBNIqCvbh/aESHVBz
+/hdG54EMILLK9uvbfGts+BTKyUZrbwaV/egcwxc=
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=San Francisco/O=BadSSL/CN=*.badssl.com
+issuer=/C=US/ST=California/L=San Francisco/O=BadSSL/CN=BadSSL Untrusted Root Certificate Authority
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 1887 bytes and written 360 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: 19C0F0AE2A7F2384E7A1AFF5A3E71E5E53746A37B45CEC43E26CFDAF21D7B348
+    Session-ID-ctx: 
+    Master-Key: 6B69ED59F2433BD896D27B129596B2F5E466D7A516568A7C41C8FA7F6F570055A9B7065ACE0381A40ACAC1794D7259D1
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - b6 24 af 0a e3 fd 14 b4-5c 95 02 d4 26 2e d1 0d   .$......\...&...
+    0020 - e7 1e 2f 51 4e 06 8d ac-c5 8d d9 b7 42 2e 75 e9   ../QN.......B.u.
+    0030 - 8c 1b 73 49 cd a0 53 c4-74 49 a2 b3 af 93 c8 e8   ..sI..S.tI......
+    0040 - ed fc 2c 73 d6 72 64 73-8e 1b cb 1a 07 3b c5 c8   ..,s.rds.....;..
+    0050 - 23 c5 95 4c 24 d7 af a5-f7 c2 73 c8 0f 5e 71 bd   #..L$.....s..^q.
+    0060 - 56 aa 6e 7e b8 9e 7b a8-72 2b 8b d8 90 8a 0e a4   V.n~..{.r+......
+    0070 - d5 50 5d 24 f6 5f 6c bb-4a b1 53 cb d4 71 79 ed   .P]$._l.J.S..qy.
+    0080 - c5 c1 c9 4a a2 8a e0 bc-95 cf fd 1e 46 97 08 96   ...J........F...
+    0090 - c8 b5 ab 39 39 ae d7 ca-84 a8 5b e3 ac 6e aa fe   ...99.....[..n..
+    00a0 - b6 9b ba 80 d0 98 92 d8-ad 42 c4 50 68 7d dd b6   .........B.Ph}..
+    00b0 - 71 47 19 09 7d 42 20 50-2c ff ea 6b c9 6d cd 05   qG..}B P,..k.m..
+    00c0 - 47 9c 8a ec 7a 28 ba d8-3d e5 9c 74 84 fe 21 8a   G...z(..=..t..!.
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---

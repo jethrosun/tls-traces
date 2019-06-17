@@ -1,0 +1,64 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=San Francisco/O=BadSSL/CN=superfish.badssl.com
+   i:/O=Superfish, Inc./L=SF/ST=CA/C=US/CN=Superfish, Inc.
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIC9TCCAl6gAwIBAgIJAK5EmlK7Klu5MA0GCSqGSIb3DQEBCwUAMFsxGDAWBgNV
+BAoTD1N1cGVyZmlzaCwgSW5jLjELMAkGA1UEBxMCU0YxCzAJBgNVBAgTAkNBMQsw
+CQYDVQQGEwJVUzEYMBYGA1UEAxMPU3VwZXJmaXNoLCBJbmMuMB4XDTE4MDUxNjE3
+MTUyM1oXDTIwMDUxNTE3MTUyM1owajELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNh
+bGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDzANBgNVBAoMBkJhZFNT
+TDEdMBsGA1UEAwwUc3VwZXJmaXNoLmJhZHNzbC5jb20wggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDCBOz4jO4EwrPYUNVwWMyTGOtcqGhJsCK1+ZWesSss
+dj5swEtgTEzqsrTAD4C2sPlyyYYC+VxBXRMrf3HES7zplC5QN6ZnHGGM9kFCxUbT
+Focnn3TrCp0RUiYhc2yETHlV5NFr6AY9SBVSrbMo26r/bv9glUp3aznxJNExtt1N
+wMT8U7ltQq21fP6u9RXSM0jnInHHwhR6bCjqN0rf6my1crR+WqIW3GmxV0TbChKr
+3sMPR3RcQSLhmvkbk+atIgYpLrG6SRwMJ56j+4v3QHIArJII2YxXhFOBBcvm/mtU
+mEAnhccQu3Nw72kYQQdFVXz5ZD89LMOpfOuTGkyG0cqFAgMBAAGjLjAsMAkGA1Ud
+EwQCMAAwHwYDVR0RBBgwFoIUc3VwZXJmaXNoLmJhZHNzbC5jb20wDQYJKoZIhvcN
+AQELBQADgYEAKgHH4VD3jfwzxvtWTmIA1nwK+Fjqe9VFXyDwXiBnhqDwJp9J+/2y
+r7jbXfEKf7WBS6OmnU+HTjxUCFx2ZnA4r7dU5nIsNadKEDVHDOvYEJ6mXHPkrvlt
+k79iHC0DJiJX36BTXcU649wKEVjgX/kT2yy3YScPdBoN0vtzPN3yFsQ=
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=San Francisco/O=BadSSL/CN=superfish.badssl.com
+issuer=/O=Superfish, Inc./L=SF/ST=CA/C=US/CN=Superfish, Inc.
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 1451 bytes and written 355 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: 6DBFC8F732E139871A449D840CC902DACED18F07D6C7D880DD2C0DBFF42F84AB
+    Session-ID-ctx: 
+    Master-Key: 3C22650C1B286E8E0B33083F40F6C87AB8955D71A8B3E54640CD7A13855868EBE9E52FE6615E99570A691DDDCB9D760D
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - 28 27 15 25 63 66 d7 16-40 78 cf 50 db 0d 34 5f   ('.%cf..@x.P..4_
+    0020 - c3 e5 b8 20 f3 45 2d 44-5a 86 97 35 a4 35 a0 8e   ... .E-DZ..5.5..
+    0030 - 37 8f 6c e3 66 39 f4 b8-b2 05 fd 6d 09 26 99 f2   7.l.f9.....m.&..
+    0040 - f9 63 4a 91 ce 27 df 9d-fa 1b c3 f6 04 60 a8 4b   .cJ..'.......`.K
+    0050 - dc f2 14 c7 4d d3 5a a1-81 3f 7f fd e2 ce 1c 6c   ....M.Z..?.....l
+    0060 - 9a c0 c6 91 c0 35 66 6e-e2 1d 18 d0 48 f0 4e ce   .....5fn....H.N.
+    0070 - 21 22 71 70 2a 7e 85 92-1a 71 e9 16 78 10 97 d2   !"qp*~...q..x...
+    0080 - e6 11 5f 21 f3 84 f8 24-30 03 82 1d f4 53 1e 0f   .._!...$0....S..
+    0090 - 65 dd 0a 7d b3 cd 12 31-ee 58 60 85 e2 9a 84 d6   e..}...1.X`.....
+    00a0 - 4d 3f 98 f2 3c e5 ac cb-4e dc f8 ad 3f 29 a4 cf   M?..<...N...?)..
+    00b0 - a3 4c 2b e3 ed 37 3b c0-1f 75 90 0a 05 a4 44 85   .L+..7;..u....D.
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---

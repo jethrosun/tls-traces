@@ -1,0 +1,73 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=San Francisco/O=BadSSL/CN=dsdtestprovider.badssl.com
+   i:/OU=DSDTestProvider/O=DSDTestProvider/CN=DSDTestProvider
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEdTCCAl2gAwIBAgIJANbyMsdDstESMA0GCSqGSIb3DQEBCwUAME4xGDAWBgNV
+BAsTD0RTRFRlc3RQcm92aWRlcjEYMBYGA1UEChMPRFNEVGVzdFByb3ZpZGVyMRgw
+FgYDVQQDEw9EU0RUZXN0UHJvdmlkZXIwHhcNMTgwNTE2MTcxNTIzWhcNMjAwNTE1
+MTcxNTIzWjBwMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQG
+A1UEBwwNU2FuIEZyYW5jaXNjbzEPMA0GA1UECgwGQmFkU1NMMSMwIQYDVQQDDBpk
+c2R0ZXN0cHJvdmlkZXIuYmFkc3NsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMIE7PiM7gTCs9hQ1XBYzJMY61yoaEmwIrX5lZ6xKyx2PmzAS2BM
+TOqytMAPgLaw+XLJhgL5XEFdEyt/ccRLvOmULlA3pmccYYz2QULFRtMWhyefdOsK
+nRFSJiFzbIRMeVXk0WvoBj1IFVKtsyjbqv9u/2CVSndrOfEk0TG23U3AxPxTuW1C
+rbV8/q71FdIzSOciccfCFHpsKOo3St/qbLVytH5aohbcabFXRNsKEqveww9HdFxB
+IuGa+RuT5q0iBikusbpJHAwnnqP7i/dAcgCskgjZjFeEU4EFy+b+a1SYQCeFxxC7
+c3DvaRhBB0VVfPlkPz0sw6l865MaTIbRyoUCAwEAAaM0MDIwCQYDVR0TBAIwADAl
+BgNVHREEHjAcghpkc2R0ZXN0cHJvdmlkZXIuYmFkc3NsLmNvbTANBgkqhkiG9w0B
+AQsFAAOCAgEAfNfnT/CA6YUYU9Z1y14O+qbDwMvo2//70i8OvT+xit4ymv6iSnEx
+m8J01YsYI/sS4Jvw8dlRtKr1l0h73jiF3cDGpVP38WEdX3kqM0+iCk4kpqkqJgqg
+Glwvgx62Z3drXJnlSzr5wAbfzPgqV4g72cJVvD5ksvw1wq5mMc+ESg9m1sBXx5aY
+DxgV9+AIetX38k+rMKDHtFQai2BtGgifzowY9F8sM2Z8DaBAaTU0yjPwSZ4ujUYQ
+ahzB9E1k6n1JKeKkXCAzb9Q/96APeNVDcmzoOoADLHVz4PAFXEPuuf0E2yx+uC4f
+/IUGQ1orb1IP5sPLGy/y7VqzSiTe5R8oU8d20yszVk98HLwO+++nAXmAXs9RQner
+3lWBQlGTKwcg3tuQICVPJZMV+9CCYyXLhXOzTHaAG7exxWtnL0E1SHY36Qq3f6jb
+r0luAyTvwFYfWEivzXkzSi/r2fRQwUr3ydrJvXZ5sE7Gzx62oBGENiPjDXlDxCIC
+m/+nX/1uaBn1Z09V6tyire34FUS4yqLYx59VWODcFp55DzML8AJRylTSPWb5aVi0
+vVnuHb5UoRfL2JOaPPTUEINz5C9szD64AOBjN1fXkq3ZFAvbK6MVrrunOGEmiV8N
+IRwKmUHTa2wHbP6eyMblyaQdMCVwJE+0LFKlgR9fEe9lSMw5axceZ/4=
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=San Francisco/O=BadSSL/CN=dsdtestprovider.badssl.com
+issuer=/OU=DSDTestProvider/O=DSDTestProvider/CN=DSDTestProvider
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 1851 bytes and written 361 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: 880FEFBDA9F9F7552520F914B14049232955B9639E15D1E7497908FDDE2FEE7B
+    Session-ID-ctx: 
+    Master-Key: 76608019F0A721A660F1A7DFF14EAD4A740B3F13C4DBEB53335D4D5C27BFCB59220D4B74AA813D558364480D462A968B
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - fb f9 62 e4 0c bf 28 8c-b2 61 b6 0b 92 63 86 58   ..b...(..a...c.X
+    0020 - d3 5c f8 c8 0c 1c 20 b7-62 53 04 51 10 aa 26 39   .\.... .bS.Q..&9
+    0030 - 7e 6e 52 a2 7b d8 a4 23-02 02 b7 08 17 fb 5c 27   ~nR.{..#......\'
+    0040 - 84 a8 dc dd a4 5e cd e6-54 3b e2 0c 35 4e 04 fb   .....^..T;..5N..
+    0050 - 83 f1 52 59 bf ed 82 6b-6c 08 79 87 69 4f ae 26   ..RY...kl.y.iO.&
+    0060 - 6e 50 b9 51 d7 b7 65 ed-9e 0b 87 71 57 8b 9b cd   nP.Q..e....qW...
+    0070 - fc 43 12 e6 a0 ac 37 a4-d8 e2 7a 96 ed 95 f8 c5   .C....7...z.....
+    0080 - 5d d9 6c f5 dc 93 5f 52-79 9a 97 dc ae 49 ad bd   ].l..._Ry....I..
+    0090 - 08 c4 09 71 72 9b 48 85-b6 98 71 45 93 be db 24   ...qr.H...qE...$
+    00a0 - 58 9e a2 72 da 50 18 5f-69 71 df b1 89 cf 27 26   X..r.P._iq....'&
+    00b0 - c9 81 cf e7 55 72 a4 35-4b d8 6e c3 50 4d 3e 9b   ....Ur.5K.n.PM>.
+    00c0 - 2a 1f 50 71 ab 70 a5 42-75 d6 69 33 f1 da f7 13   *.Pq.p.Bu.i3....
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---

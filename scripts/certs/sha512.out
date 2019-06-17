@@ -1,0 +1,88 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=Walnut Creek/O=Lucas Garron/CN=*.badssl.com
+   i:/C=US/O=DigiCert Inc/CN=DigiCert SHA2 Secure Server CA
+ 1 s:/C=US/O=DigiCert Inc/CN=DigiCert SHA2 Secure Server CA
+   i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Global Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIHGjCCBgKgAwIBAgIQC2as9L3V1BSoMGn+fB4NRjANBgkqhkiG9w0BAQ0FADBN
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5E
+aWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMTcwMzE4MDAwMDAwWhcN
+MjAwMzI1MTIwMDAwWjBnMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5p
+YTEVMBMGA1UEBxMMV2FsbnV0IENyZWVrMRUwEwYDVQQKEwxMdWNhcyBHYXJyb24x
+FTATBgNVBAMMDCouYmFkc3NsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMIE7PiM7gTCs9hQ1XBYzJMY61yoaEmwIrX5lZ6xKyx2PmzAS2BMTOqy
+tMAPgLaw+XLJhgL5XEFdEyt/ccRLvOmULlA3pmccYYz2QULFRtMWhyefdOsKnRFS
+JiFzbIRMeVXk0WvoBj1IFVKtsyjbqv9u/2CVSndrOfEk0TG23U3AxPxTuW1CrbV8
+/q71FdIzSOciccfCFHpsKOo3St/qbLVytH5aohbcabFXRNsKEqveww9HdFxBIuGa
++RuT5q0iBikusbpJHAwnnqP7i/dAcgCskgjZjFeEU4EFy+b+a1SYQCeFxxC7c3Dv
+aRhBB0VVfPlkPz0sw6l865MaTIbRyoUCAwEAAaOCA9owggPWMB8GA1UdIwQYMBaA
+FA+AYRyCMWHVLyjnjUY4tCzhxtniMB0GA1UdDgQWBBSd7sF7gQs6R2lxGH0RN5O8
+pRs/+zAjBgNVHREEHDAaggwqLmJhZHNzbC5jb22CCmJhZHNzbC5jb20wDgYDVR0P
+AQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBrBgNVHR8E
+ZDBiMC+gLaArhilodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc3NjYS1zaGEyLWc1
+LmNybDAvoC2gK4YpaHR0cDovL2NybDQuZGlnaWNlcnQuY29tL3NzY2Etc2hhMi1n
+NS5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1sAQEwKjAoBggrBgEFBQcCARYcaHR0
+cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAIBgZngQwBAgMwfAYIKwYBBQUHAQEE
+cDBuMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wRgYIKwYB
+BQUHMAKGOmh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFNIQTJT
+ZWN1cmVTZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADCCAfcGCisGAQQB1nkCBAIE
+ggHnBIIB4wHhAHcApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAAAAFa
+37GUmAAABAMASDBGAiEAlzAI5gaOsmMH2II7yr08jlqKgxeZT5zAtd9obFeUfMgC
+IQChMLfMCBbgv8Fo+7YoGzXJrNJJXDDBC+R/miHp2PA8BwB2AFYUBpov18Ls0/Xh
+vUSyPsdGdrm8mRFcwO+UmFXWidDdAAABWt+xlX0AAAQDAEcwRQIgWBrOlMeBTCBJ
+ezx+6OwzmD1QSl7/Vq2k/xACoGInSjsCIQCii59Rjt8rZxNIHMQE6/lnYHWyCqEv
+rNAJiUOrJAxJ3QB1AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3LAAAB
+Wt+xlqkAAAQDAEYwRAIgEklGobMohZiTQwTgizi4Sfy2CQ/fL1K1EM2yZGrvSCAC
+IGkDXy8uSUh3S09pAODVLHeyMYX8fdGM3UU1uv8ReNH3AHcAu9nfvB+KcbWTlCOX
+qpJ7RzhXlQqrUugakJZkNo4e0YUAAAFa37GUwQAABAMASDBGAiEA2wazyXDaD1k3
+4UVG0AJH+HhNBb728PHxuTJYGffXCckCIQDOb7subG8AQJFc5zWKeKPhnHhP2R56
+28tXqM8mzCQGzzANBgkqhkiG9w0BAQ0FAAOCAQEAyA7NyduD8+zjNI/uclW9WkvG
+6Oolon0vvbs+BGvCl5iY/3BBIxNTWPeRBDE0P+zOkceqGqjENce/d1O5I/H+oFZR
+Y0fLjtILwg/BH5QKoRWJF/rqvu7wlSqnxlYGDducs2hY2WgtIl/BntMaDQXcyzXP
+O+Pjbq0JLb6/Enss558t3DNIKvtspDidxnQIPBzKBVx8prG1C0ng4S+HmZYg166W
+mShTOeNNQMYPIUr44ICQkw82gYuAsjsgxEEjAHo0zrkHlA3cnwXeERAX3qEUQ8WH
+Dw/Py3T1TqiODDqvLLE/sFYUwqDaSdaaOo/geYvJmfqOYXQoaz2t1ptYXdvsfg==
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=Walnut Creek/O=Lucas Garron/CN=*.badssl.com
+issuer=/C=US/O=DigiCert Inc/CN=DigiCert SHA2 Secure Server CA
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 3691 bytes and written 352 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: 08E805887A27742D46258949A11D7AB88D9A05CF7C67928A4BE521B62D8341F8
+    Session-ID-ctx: 
+    Master-Key: 21DC0A96B990ACEAAB5F7CFC483A959F2DFA6A5F8F2F4C0BCA06367121F5A349FFFB92E18B360844604F2FD8702F9F3D
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - 5f de 43 b0 3a e5 29 25-04 8a ab 94 f4 45 ff 0b   _.C.:.)%.....E..
+    0020 - cf af 15 66 69 09 96 29-ce 97 78 85 3f d1 40 04   ...fi..)..x.?.@.
+    0030 - ed 5c 57 02 cc 5a 8a 72-93 3c c2 25 10 d1 af 66   .\W..Z.r.<.%...f
+    0040 - 52 bb 10 97 03 3d 30 f7-02 4e 16 2c a0 4f 0d 21   R....=0..N.,.O.!
+    0050 - 33 cd 8b b2 ee 40 d7 08-c5 48 6a 83 f5 bb 89 8d   3....@...Hj.....
+    0060 - b1 ab 49 4b 9b b3 25 e1-a6 ae 4a 2a ae 12 31 fa   ..IK..%...J*..1.
+    0070 - 52 f3 fb a2 f0 25 80 b8-56 d5 52 8d 37 bf 33 ad   R....%..V.R.7.3.
+    0080 - 2f 1e 88 6e 3b bc e9 2f-36 9f 2b 13 6b 61 63 76   /..n;../6.+.kacv
+    0090 - 82 07 b4 a7 20 1a 11 71-e8 2c d8 8d f3 52 d7 c7   .... ..q.,...R..
+    00a0 - 0b f2 87 8a 52 b6 ca ea-50 42 a6 29 a8 fd ee e9   ....R...PB.)....
+    00b0 - 7b cc fc 63 a0 f4 22 2e-a4 18 4f 64 e5 60 0c fb   {..c.."...Od.`..
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+---

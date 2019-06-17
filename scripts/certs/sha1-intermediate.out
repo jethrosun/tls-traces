@@ -1,0 +1,78 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/OU=Domain Control Validated/OU=COMODO SSL Wildcard/CN=*.badssl.com
+   i:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO SSL CA
+ 1 s:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO SSL CA
+   i:/C=SE/O=AddTrust AB/OU=AddTrust External TTP Network/CN=AddTrust External CA Root
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIE8TCCA9mgAwIBAgIRAL4AQmnXWHlXEDwE56pO2LIwDQYJKoZIhvcNAQELBQAw
+cDELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
+A1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09NT0RPIENBIExpbWl0ZWQxFjAUBgNV
+BAMTDUNPTU9ETyBTU0wgQ0EwHhcNMTcwNDEzMDAwMDAwWhcNMjAwNTMwMjM1OTU5
+WjBYMSEwHwYDVQQLExhEb21haW4gQ29udHJvbCBWYWxpZGF0ZWQxHDAaBgNVBAsT
+E0NPTU9ETyBTU0wgV2lsZGNhcmQxFTATBgNVBAMMDCouYmFkc3NsLmNvbTCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMIE7PiM7gTCs9hQ1XBYzJMY61yo
+aEmwIrX5lZ6xKyx2PmzAS2BMTOqytMAPgLaw+XLJhgL5XEFdEyt/ccRLvOmULlA3
+pmccYYz2QULFRtMWhyefdOsKnRFSJiFzbIRMeVXk0WvoBj1IFVKtsyjbqv9u/2CV
+SndrOfEk0TG23U3AxPxTuW1CrbV8/q71FdIzSOciccfCFHpsKOo3St/qbLVytH5a
+ohbcabFXRNsKEqveww9HdFxBIuGa+RuT5q0iBikusbpJHAwnnqP7i/dAcgCskgjZ
+jFeEU4EFy+b+a1SYQCeFxxC7c3DvaRhBB0VVfPlkPz0sw6l865MaTIbRyoUCAwEA
+AaOCAZwwggGYMB8GA1UdIwQYMBaAFBtrvR+KSRiUVDdVtCAX7Te5dxh9MB0GA1Ud
+DgQWBBSd7sF7gQs6R2lxGH0RN5O8pRs/+zAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0T
+AQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwTwYDVR0gBEgw
+RjA6BgsrBgEEAbIxAQICBzArMCkGCCsGAQUFBwIBFh1odHRwczovL3NlY3VyZS5j
+b21vZG8uY29tL0NQUzAIBgZngQwBAgEwOAYDVR0fBDEwLzAtoCugKYYnaHR0cDov
+L2NybC5jb21vZG9jYS5jb20vQ09NT0RPU1NMQ0EuY3JsMGkGCCsGAQUFBwEBBF0w
+WzAzBggrBgEFBQcwAoYnaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPU1NM
+Q0EuY3J0MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5jb21vZG9jYS5jb20wIwYD
+VR0RBBwwGoIMKi5iYWRzc2wuY29tggpiYWRzc2wuY29tMA0GCSqGSIb3DQEBCwUA
+A4IBAQCjAoXzYKLon9rpcYVKD1Y3zvIZyojAiUgibAi/v3trIBDA92bOCxBNgCyw
+yU3yFR8eSriE1lROeZghScU/qMKqJQhNv8jSRKiCaVjX/6XGJeGjJ4vDZgkoFOAt
+3BUpzUSqCNZPuHim6YSIWRgcoCgvqzvh9wVh/eRTMGt2naTfy2ieUkYSKleGbE91
+DeCKiiAJlimR0MJ5xOznTvCMxvs0ZppG41F+ain6rmsKQaVZfw4IxJW+9KmtNO4g
+EJO5rT+lOyz3t3Ij2yblHAwtcdxxwyA9BdvnIxfDcXVtNcqPNfBZRkhct/APO/yS
+Ix4MYaiI3P48eZeMnLgiw/MOh2Vi
+-----END CERTIFICATE-----
+subject=/OU=Domain Control Validated/OU=COMODO SSL Wildcard/CN=*.badssl.com
+issuer=/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO SSL CA
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 3232 bytes and written 363 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: AE1DB9E2712BC510FD642D55B444629BB3D007203DEB22E7F3E9AF6E319D09AB
+    Session-ID-ctx: 
+    Master-Key: 5B79128D46C53739AFE7C5B46A80EF09E419C4A9D77533321902A6E7CCAA900BCB4C0D7AA06A637B043AB4BBE99AF1EF
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 02 b2 c2 5a e5 5a 53 62-ea ff 91 b8 af 55 d4 37   ...Z.ZSb.....U.7
+    0010 - aa a5 fb d1 1e c6 9e 1a-8d 02 a6 57 60 d1 85 ae   ...........W`...
+    0020 - 19 06 43 99 5c cf 57 a0-cf 78 21 5e ef 32 a6 ba   ..C.\.W..x!^.2..
+    0030 - 80 f4 8a b7 b7 42 6a 42-f7 64 f2 8e 2b 54 7f 08   .....BjB.d..+T..
+    0040 - 5e 5c b5 ec 16 64 e2 7c-43 97 48 54 4c 15 73 68   ^\...d.|C.HTL.sh
+    0050 - 7f f1 f8 5f 79 69 c1 aa-3a cf 48 cf 7c de 55 bb   ..._yi..:.H.|.U.
+    0060 - 6d c2 07 e6 a6 10 f3 8f-6d 98 5d 2d 00 ed d2 73   m.......m.]-...s
+    0070 - 2e 97 f2 ce 64 a7 47 19-92 bf e8 b8 1a 2e b1 ae   ....d.G.........
+    0080 - 42 f0 e1 bb 5e 92 df c8-0c fd 92 1e dc 2b 17 66   B...^........+.f
+    0090 - d0 2c cf 0c b5 81 e9 25-fc f0 4e db 1c b4 9a 5e   .,.....%..N....^
+    00a0 - 1c be 44 16 37 67 85 4b-eb 1f 38 00 88 db f5 ce   ..D.7g.K..8.....
+    00b0 - e9 73 e3 fd 4f d5 78 c4-3f c9 d1 ce 83 c5 1e b7   .s..O.x.?.......
+    00c0 - 28 81 69 4e e3 e2 b8 ec-5f 09 65 34 00 68 71 5f   (.iN...._.e4.hq_
+
+    Start Time: 1560796770
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+---
