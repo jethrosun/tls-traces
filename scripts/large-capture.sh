@@ -7,7 +7,7 @@ rm index.*
 #sudo tshark -i en7 -a duration:60 -w cap01.pcap
 
 
-for run in {1..10}
+for run in {1..150}
 do
 	# bad ssl
 	wget --no-check-certificate https://expired.badssl.com
